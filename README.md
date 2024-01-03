@@ -1,2 +1,4 @@
 # Mini-Project
-# Collaborators:## Achintya ## ## Prathamesh ##
+# Collaborators:
+## Achintya ##
+## Prathamesh ##
