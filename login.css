@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main
+{
+   
+
+   
+    position: fixed;
+    width: 100%;
+    background: url('./assets/images/lib6.jpeg');
+background-size: cover;
+background-position: center;
+height: 109vh;
+
+}
+
+
+.box{
+    color: #311c0b;
+    text-align: center;
+    font-size: large;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        width: 330px;
+        
+        border: 2px solid rgb(187, 91, 31);
+        border-radius: 20px;
+        padding: 50px;
+        margin: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+        box-shadow: 6px 8px 10px rgba(0,0,0.1);
+        transition-duration: 0.3s;
+        font-family: 'Young Serif', serif;
+}
+
+.box :hover{
+    box-shadow: 4px 8px 15px rgba(0,0,0,0.8);
+    font-size: larger;
+
+
+}
+#username, #password{
+    padding: 7px;
+    padding-left: 40%;
+background-color: #d7c4e659;
+font-size: 15px;
+border-radius: 20px;
+box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+transition-duration: 0.3s;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.btn{
+    background-color: #aa6f3f; /* Green */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 6px 5px rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 25px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+}
+#submitbtn{
+    background-color: #d65d2e; /* Green */
+}
+@media only screen and (max-width: 800px){
+    .main{
+        background: url('./assets/images/lib3.jpeg');
+        background-size: cover;
+        
+    }
+    .box{
+        font-size: medium;
+        padding: 20px;
+       
+        text-align: center;
+        position: fixed;
+    top: 50%;
+    left: 45%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    }
+    .btn{
+        padding: 7px 10px;
+    }
+    #username, #password{
+        padding-left: 30%;
+        padding: 5px;
+    }
+}
+

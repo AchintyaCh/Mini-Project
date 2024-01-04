@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+      </style>
+    <div class="box1"></div>
+    <script type="text/javascript">
+        function login()
+        {
+            var uname=document.getElementById('username').value;
+            var pass=document.getElementById('password').value;
+            if(uname=='Tony' && pass=='Avenger')
+            {
+                location.assign("pk.html");
+            }
+            else{
+                window.alert("You are not an Avenger");
+            }
+        }
+        function Cancel()
+        {
+            document.getElementById('username').value="";
+            document.getElementById('password').value="";
+        }
+    </script>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="main"></div>
+    <div class ="box">
+        Username:<br>
+        <input type="text" name="text" id="username" >
+        <br><br>
+
+    Password:<br>
+    <input type="password" name="text" id="password"><br>
+    <a style="font-size: small; color:rgb(72, 20, 6);" href="./forget.html">forget password?</a>
+    <br><br>
+    <button class="btn" id="submitbtn" onclick="login();">Submit</button>
+    <button class="btn" onclick="Cancel();">Cancel</button>
+    </div>
+</div>
+</body>
+</html>
