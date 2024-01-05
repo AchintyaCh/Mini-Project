@@ -1,0 +1,57 @@
+#logo{
+    position: fixed;
+    width: 100px;
+    height: 70px;
+    left: -10px;
+    top: 2px;
+}
+.heading{
+    background-color: rgb(245, 204, 160);
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+}
+.heading2{
+    
+    text-align: center;
+    background-color: rgba(191, 98, 36, 0.906);
+    width: 101%;
+    height: 20%;
+    position: fixed;
+    top: 80%;
+    left: -5px;
+}
+#slogan{
+    text-align: center;
+    position: relative;
+    font-size: xxx-large;
+    top:28vh;
+    
+    
+    color: rgb(255, 244, 229);
+}
+/* body{
+    background-image: url('./Setuplib Images/bgimg2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+} */
+#bg{
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    top: -100px;
+    left: 0px;
+    opacity: 0.9;
+    filter: brightness(70%);
+}
+#loginbtn{
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 3px 5px 7px rgb(39, 38, 38);
+    position:relative;
+    left: 82%;
+    top: 30%;
+    
+}

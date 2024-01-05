@@ -1,0 +1,21 @@
+#logo{
+    position: fixed;
+    width: 160px;
+    height: 120px;
+    left: -20px;
+    top: -7px;
+}
+.heading{
+    background-color: rgb(219, 179, 127);
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url('./Setuplib Images/bgimg2.jpeg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
