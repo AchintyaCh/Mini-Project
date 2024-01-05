@@ -104,8 +104,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 }
 #logo{
     position: fixed;
-    width: 100px;
-    height: 70px;
+    width: 120px;
+    height: 100px;
     left: 10px;
     top: 12px;
     z-index:1;
