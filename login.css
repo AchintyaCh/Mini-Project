@@ -106,7 +106,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
     position: fixed;
     width: 100px;
     height: 70px;
-    left: -10px;
-    top: 2px;
+    left: 10px;
+    top: 12px;
 }
 
