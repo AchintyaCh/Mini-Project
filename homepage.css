@@ -70,10 +70,10 @@ h2{
     border-radius: 7px;
     box-shadow: 3px 5px 7px rgb(39, 38, 38);
     position: sticky;
-    left: 82%;
+    left: 60%;
     top: 3%;
     background-color: rgba(191, 98, 36, 0.906);
     border-color: rgb(90, 38, 14);
-    border: no
+    border: none;
     }
 }
