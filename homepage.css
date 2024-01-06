@@ -39,13 +39,14 @@
     height: 100px;
 } */
 #bg{
-    z-index: -1;
+  z-index: -1;
     position: fixed;
     width: 100%;
+    height: 100%;
     top: -100px;
-    left: 0px;
     opacity: 0.9;
     filter: brightness(70%);
+    LEFT: 0px;
 }
 #loginbtn{
     padding: 8px;
