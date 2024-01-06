@@ -2,12 +2,12 @@ function login()
         {   
             var uname=document.getElementById('username').value;
             var pass=document.getElementById('password').value;
-            if(uname=='User1' && pass==pass1)
+            if(uname=='User1' && pass=="123")
             {
-                location.assign("pk.html");
+                location.assign("index.html");
             }
             else{
-                window.alert("You are not an Avenger");
+                window.alert("You are Succesfully Logged In");
             }
         }
         function Cancel()
