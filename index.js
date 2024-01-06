@@ -2,7 +2,7 @@ function login()
         {   
             var uname=document.getElementById('username').value;
             var pass=document.getElementById('password').value;
-            if(uname=='User1' && pass=='123')
+            if(uname=='User1' && pass==pass1)
             {
                 location.assign("pk.html");
             }
