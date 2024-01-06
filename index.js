@@ -2,6 +2,7 @@ function login()
         {   
             var uname=document.getElementById('username').value;
             var pass=document.getElementById('password').value;
+            var pass1=pass;
             if(uname=='User1' && pass=="123")
             {
                 location.assign("index.html");
