@@ -16,3 +16,7 @@ function login()
             document.getElementById('username').value="";
             document.getElementById('password').value="";
         }
+function passChange(){
+        var mymodule = require('index.js');
+        mymodule.pass1 = pass;
+}
